@@ -88,7 +88,6 @@ h1{
 }
 .form-group{
   display:flex;
-  flex-direction:row;
   margin-left:20px;
   width:auto;
   height: 40px;
@@ -98,6 +97,9 @@ h1{
   
 
 
+}
+p{
+  text-align: center;
 }
 .form-control{
   text-align: center;
@@ -165,6 +167,11 @@ li:hover {
 }
 .btnedit {
   color: orange;
+  
+}
+.btnedit1 {
+  color: orange;
+  
 }
 #listitems{
   text-decoration: line-through;

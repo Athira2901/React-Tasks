@@ -66,9 +66,9 @@ function Todo() {
           placeholder="Enter task"
           onChange={sentence}
         />
-        <p>{todo}</p>
-        <button onClick={addTodo} className="btnadd"><IoAddOutline /></button>
+        <button onClick={addTodo} className="btnadd">{editid?<LuFileEdit className="btnedit1"/>:<IoAddOutline />}</button>
       </form>
+      <p>{todo}</p>
      
         <ul>
           {todos.map((data) => (
